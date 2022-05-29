@@ -1,0 +1,856 @@
+/* Bootstrap carousel template custom style  */
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: rgb(68, 63, 63);
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+/* rtl:end:ignore */
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -0.05rem;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+/*----------------------- End of bootstrap carousel template custom style ------------------- */
+
+/*  Core custom style for webpage  */
+/* link Style */
+a {
+  text-decoration: none; /* remove text decoration to present without underline */
+}
+
+a:hover {
+  font-style: italic;
+}
+
+/* Testmonials*/
+
+.space {
+  margin-top: 4rem;
+}
+
+/*..........Contact us.........................*/
+
+/*positioning and align the container and inside box  with help of flex properties  */
+.contct {
+  width: 100%;
+  max-width: 1400px;
+  padding: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+}
+
+/*positioning and resize of the header text and para text with help of padding and margin properties   */
+#ff {
+  width: 100%;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  color: black;
+  font-size: 47px;
+}
+.contact-info {
+  flex: 2;
+}
+.contact-form {
+  flex: 1;
+}
+#item {
+  margin-bottom: 40px;
+  font-size: 25px;
+  color: rgb(68, 63, 63);
+}
+
+/*setting width and height of icons and positioning withbhelp of padding  */
+.icon {
+  width: 60px;
+  height: 60px;
+  line-height: inheritpx;
+  background-color: darkkhaki;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 40%;
+}
+
+/*positioning and align the form with help of flex properties  */
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/*positioning and resize of the input with help of padding properties   */
+.textb {
+  width: 30%;
+  height: 40px;
+  background-color: black;
+  border: none;
+  color: white;
+  margin-bottom: 20px;
+  padding: 3px;
+}
+
+.error {
+  color: black;
+}
+
+/*positioning and resize of the text-area with help of padding properties   */
+textarea {
+  width: 100%;
+  min-height: 300px;
+  max-height: 400px;
+  padding: 12px;
+  background-color: black;
+  border: none;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Positioning and resizing of the button and setting of color of the button */
+.btns {
+  width: 120px;
+  height: 40px;
+  margin-left: auto;
+  background-color: darkkhaki;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 2px solid darkkhaki;
+  transition: 0.3s linear;
+}
+
+/* hover-effect */
+.btns:hover {
+  background-color: transparent;
+}
+
+/*............About Us..................... */
+
+/* background-color */
+.five {
+  background-color: rgb(156, 154, 154);
+}
+
+/* Container box positioning */
+.wrap {
+  margin-top: 10%;
+}
+
+/* Positioning the header text with help of function padding  and margin properties   */
+.wrap h4 {
+  color: gold;
+  font-size: 50px;
+  font-family: "DM Mono", monospace;
+  text-shadow: 0px 0px 3px white; /*style text*/
+  margin-left: 650px;
+  padding-top: 70px;
+}
+
+/* Positioning the feature box with help of flex and make it align in horizontal   */
+.team {
+  display: flex;
+  text-align: centre; /* text aling centre   */
+  width: auto;
+  justify-content: center;
+  flex: wrap; /* use wrap to shrink the box according to the need   */
+  padding: 20px;
+}
+
+/* Positioning the text and box with  help of margin and padding properties  */
+.team_member {
+  background: #ffff;
+  margin: 50px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  position: relative;
+}
+
+/* Positioning the para text  with  help of  padding properties  */
+.team_member p {
+  padding-left: 40px;
+}
+.role {
+  color: black;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 12px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* Positioning of the image   */
+.team-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ffff;
+}
+
+/* set height and width of image  */
+.team-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.team_text {
+  color: black;
+}
+
+.nameabout {
+  color: black;
+}
+
+/* styling upper paragraph*/
+.about_site {
+  color: white;
+  margin: 3em;
+  margin-right: 2em;
+  margin-left: 8em;
+}
+
+/*...................... Register*.........................................*/
+
+/* Positioning the header text h2 with help of function padding and margin properties */
+.register-header h2 {
+  color: black;
+  font-size: 50px;
+  font-family: "DM Mono", monospace;
+  margin-left: 7px;
+  padding-top: 100px;
+}
+
+/* Setting up the width, border radius along with box styling and some positioning with help of margin properties*/
+.eight {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555555;
+  margin: 15px;
+}
+
+/* Box styling and transform the text inside by doing scaling */
+.pricing-highlight {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  transform: scale(1.05);
+}
+
+/* Positioning the text with help of function padding  properties   */
+.price-recommend {
+  padding: 10px;
+  text-align: center; /* text aligning to centre   */
+  font-weight: bold;
+  color: #ffff;
+  background: #007c64;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) inset;
+}
+
+/* Positioning the header text with help of function padding  properties   */
+.price-header {
+  padding: 25px;
+  background: #009578;
+  color: white;
+}
+
+/* text aligning to centre and positioning and resizing the font tex */
+.price-title,
+.price-summary {
+  margin: 0;
+  text-align: center;
+}
+.price-title {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+.price-summary {
+  font-size: 1em;
+  font-weight: 300;
+}
+.price-description {
+  padding: 25px;
+  background-color: white;
+}
+.price-list {
+  padding: 0;
+  margin: 0;
+}
+.price-feature {
+  list-style: none;
+  margin: 0;
+  padding-left: 25px;
+  position: relative;
+  font-size: 0.9em;
+}
+.price-feature:not(:last-child) {
+  margin-bottom: 0.5em;
+}
+.price-feature:before {
+  content: "\2714";
+  color: #009578;
+  position: absolute;
+  left: 0;
+}
+
+/* Positioning the header text with help of function padding  properties   */
+.price-action {
+  padding: 25px;
+  border-top: 1px solid #eee;
+  display: flex;
+  flex-direction: column; /* Use flex to make the alignment and position in box in horizontal*/
+  background-color: #ffff;
+}
+
+/* To make the button and text  horizontal used display inline block  and Set the size of the text for the button/box and make it to the right and done some positining with padding giving the backgroung color for the box/button*/
+.price-button {
+  display: inline-block; /*  To make the text in the  horizontal used display inline block */
+  margin: 15px auto;
+  padding: 8px 20px;
+  text-decoration: none; /* To remove the default line downside the text we use text-decoration to none */
+  color: #009578;
+  background: #ffff;
+  border-radius: 5px;
+  border: 1px solid #009578;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  font-weight: 0.02em;
+}
+
+/* hover effect */
+.price-button:hover {
+  background: #009578;
+  color: #ffff;
+}
+
+/* Align the position of the text */
+.price-cost {
+  margin: 0;
+  text-align: center;
+  font-size: 2em;
+  color: black;
+}
+
+.price-text {
+  font-size: 0.88em;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+/* Use flex to make the alignment and position in box in horizontal*/
+.price-container {
+  display: flex;
+  align-items: center; /* text aligning to centre   */
+  justify-content: center; /* Aligns flex items along the main axis of the current line of the flex container.*/
+}
+
+/* .....................signup form.................................... */
+
+/* Positioning the outer box with help of function padding  properties   */
+.twelve {
+  padding: 0 10px;
+  box-sizing: border-box;
+  padding-top: 40px;
+}
+
+/* Positioning the header text h2 with help of function padding and margin properties */
+.signup-header h2 {
+  color: white;
+  font-size: 50px;
+  font-family: "DM Mono", monospace;
+  text-shadow: 0px 0px 10px black;
+  margin-left: 7px;
+  padding-top: 100px;
+}
+
+/* Positioning the container with help of function padding and margin properties   */
+.signup-container {
+  width: 80%;
+  background: #fff;
+  margin: 20px auto;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+  padding: 30px;
+}
+
+/*positioning and resize of the text inside the formn (input) with help of padding  properties  */
+.signup-input[type="text"],
+.signup-input[type="email"],
+.signup-input[type="number"],
+.signup-input[type="select"],
+.signup-input[type="date"],
+.signup-input[type="select"],
+.signup-input[type="password"],
+.signup-input[type="tel"] {
+  width: 122%;
+  padding: 12px;
+  border: 1px solid rgb(168, 166, 166);
+  border-radius: 4px;
+  resize: vertical;
+}
+
+/*positioning and resize of the text-area with help of padding properties   */
+.signup-textarea {
+  width: 45%;
+  padding: 12px;
+  border: 1px solid rgb(168, 166, 166);
+  border-radius: 4px;
+  resize: vertical;
+  background-color: white;
+  color: black;
+}
+
+/*positioning and resize of the text inside the formn (input) with help of padding  properties  */
+.signup-input[type="radio"],
+.signup-input[type="checkbox"] {
+  width: 5%;
+  padding-left: 0%;
+  border: 1px solid rgb(168, 166, 166);
+  border-radius: 4px;
+  resize: vertical;
+}
+
+/*positioning and resize of the header text h3 with help of padding properties   */
+.twelve h3 {
+  font-family: Arial;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+  color: brown;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 10px;
+}
+
+/*positioning  of the label with help of padding properties   */
+.signup-label {
+  padding: 1px 12px 12px 0;
+  display: inline-block;
+}
+
+/*positioning  of the input with help of padding properties   */
+.signup-input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+}
+
+/*  Hover effect   */
+.signup-input[type="submit"]:hover {
+  background-color: #32a336;
+}
+
+/* Positioning the container with help of function padding properties   */
+.signup-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Positioning with help of float and margin properties   */
+.signup-col1 {
+  float: left;
+  width: 10%;
+  margin-top: 6px;
+}
+
+/* Positioning with help of float and margin properties   */
+.signup-col2 {
+  float: left;
+  width: 90%;
+  margin-top: 6px;
+}
+
+/* Positioning with help of float and margin properties   */
+.signup-row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding-top: 20px;
+}
+
+/* ..............Login............................... */
+
+/* Positioning the header text h2 with help of function padding and margin properties */
+.login-header h2 {
+  color: gold; /* Setting up the color   */
+  font-size: 50px;
+  font-family: "DM Mono", monospace;
+  text-shadow: 0px 0px 10px black; /* Styling the text */
+  margin-left: 7px;
+  padding-top: 100px;
+}
+
+/* Positioning the box with help of function padding and margin properties */
+.nine {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+/* Positioning the header text h3 with help of function padding and margin properties */
+.nine h3 {
+  font-size: 30px;
+  padding-top: 30px;
+  color: #ffff;
+}
+
+/* Positioning the box with help of function padding and margin properties */
+.login-container {
+  display: flex; /* Use flex to make the alignment and position in box in horizontal*/
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: transparent;
+  box-shadow: 0 0 30px rgb(255, 255, 255); /* Box style*/
+  border-radius: 15px;
+  width: 500px;
+  margin: 10vh auto;
+  background: black;
+}
+
+/* Positioning the box with help of function padding and margin properties */
+.login-form {
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column; /* Use flex diection to make the alignment and position in box in horizontal with column function*/
+  width: 85%;
+}
+
+/* Positioning the box with help of function  margin properties */
+.form-item {
+  display: flex; /* Use flex to make the alignment and position */
+  width: 90%;
+  background: transparent;
+  margin: 10px auto;
+  align-items: center;
+  border-radius: 15px;
+  border-bottom: 1px solid rgb(82, 81, 81);
+}
+
+/*hover effect */
+.form-item:hover {
+  border: 1px solid rgb(82, 81, 81);
+}
+
+/*positioning and resize of the text inside the formn (input) with help of margin  properties  */
+.nine input {
+  font-size: 18px;
+  width: 80%;
+  height: 30px;
+  outline: none;
+  background: transparent;
+  border: none;
+  margin: auto;
+  color: white;
+}
+
+/* Positioning and resizing of the button and setting of color of the button */
+.nine button[type="submit"] {
+  width: 250px;
+  font-size: 20px;
+  margin: 10px auto;
+  padding: 10px 16px;
+  color: white;
+  background: rgba(122, 123, 116, 0.72);
+  border: none;
+  text-align: center;
+}
+
+/* hover effect  to button */
+.nine button[type="submit"]:hover {
+  background: rgb(172, 134, 8);
+}
+
+/* Positioning and resizing of the font and setting of color para text */
+.nine p:first-of-type {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Positioning and resizing of the font and setting of color para text */
+.nine p {
+  font-size: 18px;
+  margin: 5px;
+}
+
+/* setting up angular link color  */
+.nine a {
+  color: white;
+}
+
+/* hover effect  */
+.nine a:hover {
+  color: grey;
+}
+
+/*....................... User opinion...............................  */
+
+/* Positioning the outer box with help of function padding and margin properties   */
+.fourteen {
+  padding: 0 10px;
+  box-sizing: border-box;
+  padding-top: 40px;
+  margin-bottom: 2em;
+}
+
+/* Positioning and resizing of the font and setting of color of header text h2  with help of function padding and margin properties    */
+.Useropinion-header h2 {
+  color: black;
+  font-size: 50px;
+  font-family: "DM Mono", monospace;
+  margin-left: 7px;
+  padding-top: 100px;
+}
+
+/* Positioning the container with help of function padding and margin properties   */
+.user-container {
+  width: 80%; /* setting up the width  */
+  background: #fff; /* setting up the background color   */
+  margin: 20px auto;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125); /* styling the box with help of b0x-shadow   */
+  padding: 30px;
+}
+
+/*positioning and resize of the text inside the formn (input) with help of padding  properties  */
+.user-input[type="text"] {
+  width: 122%;
+  padding: 12px;
+  border: 1px solid rgb(168, 166, 166);
+  border-radius: 4px; /* setting up the border along with border radius  */
+  resize: vertical;
+}
+
+/*positioning and resize of the text-area with help of padding properties   */
+.user-textarea {
+  width: 175%;
+  padding: 12px;
+  border: 1px solid rgb(168, 166, 166);
+  border-radius: 4px; /* setting up the border along with border radius  */
+  resize: vertical;
+  background-color: white;
+  color: black;
+}
+
+/*positioning and resize of the header text h3 with help of padding properties   */
+.fourteen h3 {
+  font-family: Arial; /* Styling of font  */
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+  color: brown;
+  text-align: center;
+  text-decoration: underline; /*to give a underline at bottom of text the function text-decoration is used  */
+  padding-top: 10px;
+}
+
+/*positioning  of the label with help of padding properties   */
+.user-label {
+  padding: 1px 12px 12px 0;
+  display: inline-block; /*make the label in horizontal position the display inline block is used   */
+}
+
+/*positioning and resize of the text inside the formn  with help of padding  properties for submit button  */
+.user-input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px; /* setting up the border along with border radius  */
+  cursor: pointer;
+  float: left;
+}
+
+/* setting up the hover effect for the submit button */
+.user-input[type="submit"]:hover {
+  background-color: #32a336;
+}
+
+/* Positioning the container with help of function padding properties   */
+.user-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Positioning with help of float and margin properties   */
+.user-col1 {
+  float: left;
+  width: 10%;
+  margin-top: 6px;
+}
+
+/* Positioning with help of float and margin properties   */
+.user-col2 {
+  float: left;
+  width: 90%;
+  margin-top: 6px;
+}
+
+/* Positioning with help of padding  properties    */
+.user-row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding-top: 20px;
+}
+
+/* Text align to the centre and resize the text size  */
+#currentDate {
+  text-align: left;
+  width: 10%;
+}
+
+/*............ Footer .............................*/
+
+/* Setting up the backround color and font color of the footer */
+footer {
+  background-color: rgb(212, 209, 209);
+  color: rgb(68, 63, 63);
+}
+
+/* Positioning the para text and header text inside class with the help of margin and margin-bottom and spacing in between the text with function line height */
+.info {
+  margin: 5px;
+  margin-bottom: 55px;
+  line-height: 30px;
+  position: relative;
+}
+
+/* Setting the font color and text size of header text h5 */
+.info h5 {
+  color: black;
+  font-size: 35px;
+  font-family: "DM Mono", monospace;
+}
+
+/* Setting up the color and size of the font */
+.copyright {
+  color: rgb(68, 63, 63);
+  font-size: 25px;
+}
+
+/* aligning the text to centre with help of function align centre */
+.copyright h6 {
+  text-align: center;
+}
+
+/*......... Edit Pages...............*/
+#contact_Manage {
+  align-content: center;
+}
+
+/*......... class_details_update page ...............*/
+
+.edit_header {
+  margin-top: 2em;
+}
+
+/*....... Update message box.......*/
+
+.updateMessage {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.updateMessage button {
+  margin: 1em;
+}
+
+#successUpdateMesssage {
+  margin-top: 2em;
+}
