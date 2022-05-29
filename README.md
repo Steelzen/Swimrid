@@ -4,7 +4,7 @@ This is group project to make responsive website for swimming pool.
 
 You can access this website in here => https://knuth.griffith.ie/~s3059282/final_project/Swimrid/
 
-Uset tech
+Used tech
 - PHP
 - MySQL
 
